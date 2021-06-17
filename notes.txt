@@ -2,3 +2,16 @@ sales.info()
 sales.describe()
 sales.head(5)
 
+
+std = écart-type : différence des extrêmes avec la moyenne
+
+
+var catégoriques : 
+	-> get two colums : 
+		tab = ibm2.sample(150)[['Attrition', 'JobSatisfaction']]
+		tab.head(25)
+		
+		
+		
+		
+Si pas de valeurs abherrantes, regarder les valeurs des axes X et Y
