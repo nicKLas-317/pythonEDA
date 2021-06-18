@@ -15,3 +15,6 @@ var catégoriques :
 		
 		
 Si pas de valeurs abherrantes, regarder les valeurs des axes X et Y
+
+Lois de probabilité - loi normal :
+	
