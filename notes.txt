@@ -17,4 +17,25 @@ var catégoriques :
 Si pas de valeurs abherrantes, regarder les valeurs des axes X et Y
 
 Lois de probabilité - loi normal :
+
+
+
+
+GRAPHIQUES 
+- RELPLOT : 
+g = sns.relplot(x=sales['date'], y='item_price',  data=sales, height=8, aspect=3, kind='line')
+# g.fig.set_figwidth(15.27)
+# g.fig.set_figheight(6.7)
 	
+
+- CATPLOT :
+sns.catplot(x='Attrition', y='TotalWorkingYears', kind="box", data=ibm2)
+
+- BOXPLOT : 
+sns.boxplot(data=ibm,y='TotalWorkingYears',x='Attrition')
+
+-HISTPLOT :
+plt.figure(figsize=(15,6))
+sns.histplot(data=ibm[(ibm['Attrition']==1)],x='EducationField',stat='probability')
+
+ou sns.catplot(x='EducationField',y='Attrition', data=ibm, kind='bar', height=9)
